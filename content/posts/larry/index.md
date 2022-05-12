@@ -1,7 +1,7 @@
 ---
 title: "Larry Miller"
-companies: ["MomCorp"]
-species: ["human"]
+categories: ["MomCorp"]
+tags: ["human"]
 images: ["Larry.jpg"]
 source: https://futurama.fandom.com/
 ---

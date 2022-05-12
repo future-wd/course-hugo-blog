@@ -1,7 +1,7 @@
 ---
 title: "Kif Kroker"
-companies: ["Democratic Order of Planets"]
-species: ["amphibiosans"]
+categories: ["Democratic Order of Planets"]
+tags: ["amphibiosans"]
 images: ["Kif_Kroker_-_Official_Character_Promo.jpg"]
 source: https://futurama.fandom.com/
 ---

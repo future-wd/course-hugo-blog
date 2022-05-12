@@ -1,8 +1,8 @@
 ---
 title: "Professor Hubert J. Farnsworth"
 date: 2022-04-26T21:56:13-04:00
-companies: ["Planet Express"]
-species: ["Human"]
+categories: ["Planet Express"]
+tags: ["Human"]
 draft: false
 images: [Cast_futurama_proffarnsworth.jpg]
 source: https://futurama.fandom.com/

@@ -1,7 +1,7 @@
 ---
 title: "Igner Miller"
-companies: ["MomCorp"]
-species: ["human"]
+categories: ["MomCorp"]
+tags: ["human"]
 images: ["Igner.png"]
 source: https://futurama.fandom.com/
 ---

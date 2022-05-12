@@ -1,7 +1,7 @@
 ---
 title: "Doctor John Zoidberg"
-companies: ["Planet Express"]
-species: ["decapodian"]
+categories: ["Planet Express"]
+tags: ["decapodian"]
 images: ["Doctor_John_A__Zoidberg_-_Official_Promo.jpg"]
 source: https://futurama.fandom.com/
 ---

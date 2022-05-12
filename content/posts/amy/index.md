@@ -1,7 +1,7 @@
 ---
 title: "Amy Wong-Kroker"
-companies: ["Planet Express"]
-species: ["Human"]
+categories: ["Planet Express"]
+tags: ["Human"]
 images: ["AmyWong.png"]
 source: https://futurama.fandom.com/
 ---

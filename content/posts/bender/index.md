@@ -1,7 +1,7 @@
 ---
 title: "Bender Bending Rodriguez"
-companies: ["Planet Express"]
-species: ["Robot"]
+categories: ["Planet Express"]
+tags: ["Robot"]
 images: [Bender_Rodriguez.png]
 source: https://futurama.fandom.com/
 ---
