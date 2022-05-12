@@ -7,7 +7,9 @@
         {{ .Content | markdownify }}
         {{ range .Paginator.Pages }}
         <article>
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <header>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          </header>
           <div class="pb-3">
             {{ .Summary }}
           </div>
