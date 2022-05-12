@@ -3,7 +3,7 @@ title: "Larry Miller"
 categories: ["MomCorp"]
 tags: ["human"]
 images: ["Larry.jpg"]
-date: 20221-03-03
+date: 2021-03-03
 source: https://futurama.fandom.com/
 ---
 Larry Miller (born August 18, 2975) is a minor character on Futurama. He is the sniveling middle child of Mom's three sons. He owns 0.1% of MomCorp.

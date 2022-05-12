@@ -1,7 +1,7 @@
 ---
 title: "Kif Kroker"
 categories: ["Democratic Order of Planets"]
-date: 20221-03-03
+date: 2021-03-03
 tags: ["amphibiosans"]
 images: ["Kif_Kroker_-_Official_Character_Promo.jpg"]
 source: https://futurama.fandom.com/
