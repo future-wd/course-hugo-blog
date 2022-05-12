@@ -1,6 +1,7 @@
 ---
 title: "Amy Wong-Kroker"
 categories: ["Planet Express"]
+date: 2022-01-03
 tags: ["Human"]
 images: ["AmyWong.png"]
 source: https://futurama.fandom.com/
