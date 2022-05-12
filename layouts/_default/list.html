@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col">
         {{ partial "title" . }}
-        <div class="py-3">{{ .Content | markdownify }}</div>
+        {{ .Content | markdownify }}
         {{ range .Paginator.Pages }}
         <article>
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
@@ -20,5 +20,4 @@
     </div>
   </div>
 </section>
-
 {{ end }}
