@@ -1,6 +1,7 @@
 ---
 title: "Igner Miller"
 categories: ["MomCorp"]
+date: 20221-03-03
 tags: ["human"]
 images: ["Igner.png"]
 source: https://futurama.fandom.com/

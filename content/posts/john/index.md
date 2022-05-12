@@ -1,6 +1,7 @@
 ---
 title: "Doctor John Zoidberg"
 categories: ["Planet Express"]
+date: 20221-03-03
 tags: ["decapodian"]
 images: ["Doctor_John_A__Zoidberg_-_Official_Promo.jpg"]
 source: https://futurama.fandom.com/

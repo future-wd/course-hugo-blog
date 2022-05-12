@@ -1,6 +1,7 @@
 ---
 title: "Bender Bending Rodriguez"
 categories: ["Planet Express"]
+date: 20221-03-03
 tags: ["Robot"]
 images: [Bender_Rodriguez.png]
 source: https://futurama.fandom.com/
