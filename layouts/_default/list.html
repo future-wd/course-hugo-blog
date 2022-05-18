@@ -14,24 +14,23 @@
         {{ range $paginator.Pages }}
         <article class="post-summary mb-3">
           <div class="row">
+            <div class="col-md-5 d-flex justify-content-center">
             {{- $post := . -}}
             {{- with .Params.images -}}
               {{- if reflect.IsSlice . -}}
                 {{- with index . 0 -}}
                   {{- with $image := $post.Resources.GetMatch . }}
-                    <div class="col-md-5 d-flex justify-content-center">
-                      <img src="{{ $image.RelPermalink }}" class="img-fluid post-summary__image" 
-                      width="{{ .Width }}" height="{{ .Height }}" alt="{{ $post.Title }}">
-                    </div>
-                    <div class="col-md-7">
-                  {{ else }}
-                    <div class="col">
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid post-summary__image"
+                      width="{{ .Width }}" height="{{ .Height }}" 
+                      alt="{{ printf "Image for post %s" $post.Title }}" title="{{ $post.Title }}">
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
             {{- end -}}
+          </div>
+            <div class="col-md-7 order-md-first">
               <header>
-                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <h2><a class="text-decoration-none" href="{{ .Permalink }}">{{ .Title }}</a></h2>
               </header>
               <div class="pb-3">
                 {{ .Summary }}
