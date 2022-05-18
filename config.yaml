@@ -11,3 +11,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+params:
+  dateFormat: "02/01/2006"

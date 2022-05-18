@@ -28,14 +28,22 @@
               {{- end -}}
             {{- end -}}
           </div>
-            <div class="col-md-7 order-md-first">
+            <div class="col-md-7 order-md-first d-flex flex-column">
               <header>
                 <h2><a class="text-decoration-none" href="{{ .Permalink }}">{{ .Title }}</a></h2>
               </header>
               <div class="pb-3">
                 {{ .Summary }}
               </div>
-            </div>
+              {{ with .PublishDate }}
+              <div class="ms-auto mt-auto">
+                {{ partial "svg-icon" "icons/bootstrap/calendar2-date.svg" }}
+                <time datetime="{{ .Format "2006-01-02" }}">
+                <span class="ms-1">{{ .Format site.Params.dateFormat }}</span>
+                </time>
+              </div>
+              {{ end }}
+           </div>
           </div>
         </article>
         {{ end }}
