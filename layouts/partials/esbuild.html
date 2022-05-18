@@ -5,4 +5,4 @@
 {{- $opts = dict "sourceMap" "inline" "target" "es2015" -}}
 {{- end -}}
 {{- $built := resources.Get . | js.Build $opts | fingerprint }}
-<script type="text/javascript" src="{{ $built.RelPermalink }}" integrity="{{ $built.Data.Integrity }}" defer></script>
+<script type="text/javascript" src="{{ $built.RelPermalink }}" integrity="{{ $built.Data.Integrity }}"></script>
