@@ -7,9 +7,18 @@
   <header>
     {{ partial "header" . }}
   </header>
-  <main class="mb-3">
-    {{ block "main" . }}{{ end }}
-  </main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9 bg-secondary mb-3">
+        <main>
+          {{ block "main" . }}{{ end }}
+        </main>
+      </div>
+      <div class="col-md-3 bg-info mb-3"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto libero quam deleniti minus accusamus vitae obcaecati sapiente sequi numquam laborum blanditiis similique voluptatum repellat, quia nobis possimus maxime aspernatur?
+      </div>
+    </div>
+  </div>
   <footer>
     {{ partial "footer" . }}
   </footer>
