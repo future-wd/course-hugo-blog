@@ -12,8 +12,25 @@ markup:
     renderer:
       unsafe: true
 enableGitInfo: true
+# config for related posts
+related:
+  #pages which are newer than the current page
+  includeNewer: true
+  # search terms
+  indices:
+  - name: categories
+    weight: 100
+  - name: tags
+    weight: 100
+  threshold: 80
+  # lowercase search query
+  toLower: true
 
 params:
   dateFormat: "02/01/2006"
   widgets: 
   - recent-posts
+  - related-posts
+  # control the number of posts in widgets
+  relatedPosts: 5
+  recentPosts: 5
