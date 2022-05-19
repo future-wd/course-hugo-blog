@@ -29,6 +29,7 @@ related:
 params:
   dateFormat: "02/01/2006"
   widgets: 
+  - search
   - recent-posts
   - related-posts
   - post-categories
