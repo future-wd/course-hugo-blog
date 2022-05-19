@@ -15,3 +15,5 @@ enableGitInfo: true
 
 params:
   dateFormat: "02/01/2006"
+  widgets: 
+  - recent-posts
