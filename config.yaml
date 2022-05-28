@@ -11,6 +11,19 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false # false needs a stylesheet
+    noHl: false
+    style: monokai
+    tabWidth: 4
 enableGitInfo: true
 # config for related posts
 related:
@@ -25,6 +38,7 @@ related:
   threshold: 80
   # lowercase search query
   toLower: true
+
 
 params:
   dateFormat: "02/01/2006"
